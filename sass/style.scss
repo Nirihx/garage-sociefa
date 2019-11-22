@@ -126,6 +126,7 @@ body{
                 width: 90%;
             }
             .caption{
+                display: block;
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -171,7 +172,7 @@ body{
 
             }
         }
-    }
+    } 
     &::after{
         content: "";
         background: url(../images/bord-heder.png) no-repeat center top;
