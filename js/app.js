@@ -59,19 +59,9 @@
     $('textarea.form-control').on('focus', function(){
         $('textarea.form-control').css('height', '150px');
     }), 1000;
-
-    // menu mobile
-    $('#main-nav').hcOffcanvasNav({
-        insertClose: false,
-        labelBack: 'Back' // back buton
+    
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
     });
-    
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
-    
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
 
 })(jQuery);
